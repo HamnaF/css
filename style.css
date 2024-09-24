@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+}
+:root{
+    --dark-blue: hsl(215, 28%, 17%);
+    --btncolr: #3882F6;
+    --quotebg: #E5E7EB;
+
+}
+.main-sect{
+    background-color: var(--dark-blue);
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 100%;
+    height: 90vh;
+   
+    
+
+}
+.navbar{
+    display: flex;
+    height: 60px;
+   margin: 0px 50px ;
+    font-size: 24px;
+    color: #F9FAF8;
+    
+    align-items: center;
+    
+
+}
+.navbar div{
+    flex: 1 1 0%;
+}
+.logo{
+    width: 200px; 
+  
+    flex: 1;
+
+}
+.navlinks{
+    display: flex;
+    flex: 1 1 auto;
+    gap: 15px;
+   
+    width:20px ;
+
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: var(--quotebg);
+    
+    font-size: 18px;
+    flex: 1;
+    list-style: none;
+
+}
+.herocontainer{
+    display: flex;
+    height: 20rem;
+   margin: 80px 30px;
+
+}
+.herocontainer div{
+    flex: 1 1 0%;
+}
+.herodetails{
+    margin: 1rem;
+    
+    
+
+}
+.herodetails h1,p,button{
+    color: var(--quotebg);
+    padding: 0rem 2rem ;
+    justify-content: center;
+    line-height: 1rem;
+}
+.herodetails h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    
+}
+.herodetails p{
+    color: var(--quotebg);
+    
+    padding: 1rem ;
+}
+.herodetails button{
+    border-radius: 20px;
+    margin-left: 10rem;
+    height: 3rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--btncolr);
+    width: 7rem;
+    border: transparent;
+}
+.image{
+    margin: 0px 130px;
+    background-image: url(./images/8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.info-cont{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    
+}
+.card1{
+    margin-top: 1rem;
+    flex: 1 1 2%;
+    
+    max-width: 13rem;   
+
+
+}
+
+.card1 .box{
+    
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    border: 2px solid rgb(6, 110, 220);
+}
+.card1 p{
+    
+    color: var(--dark-blue);
+    max-width: 11rem;  
+    flex: 1 1 auto;
+    font-size: 12px;
+    padding: 5px;
+  
+
+}
+.insp-cont{
+    background-color: #E5E7EB;
+    height:250px;
+    align-content: center; 
+    padding: 8rem;
+    
+}
